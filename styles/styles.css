@@ -91,3 +91,37 @@ margin: 20px 0 10px;
 font-size: 25px;
 font-weight: 500;
 }
+/* mindset styles */
+.mindset{
+  background-image: url('../images/watch.png');
+  background-position: center;
+  background-size: cover;
+  margin: 150px;
+  position: relative;
+  z-index: 1;
+}
+.mindset::after{
+  content: "";
+  position: absolute;
+  background-image: url('../images/gradient1.png');
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+.mindset > .section-title{
+  color: #fff;
+  padding: 60px 0px 20px 70px;
+}
+.btn-white{
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 25px;
+  margin:0 0 60px 70px;
+}
