@@ -50,6 +50,7 @@ header {
 }
 .failures-description{
   padding-top: 250px;
+  margin-right: 80px;
 }
 .description {
   color: #444343;
@@ -69,4 +70,24 @@ header {
 .failures-icon{
   color: #16d887;
   font-weight: 500;
+}
+/* plans styles */
+.plans{
+  text-align: center;
+}
+.plan-details{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 100px 0 100px;
+}
+.plan-title{
+  color:#151414;
+font-size: 30px;
+font-weight: 700;
+margin: 20px 0 10px;
+}
+.plan-description{
+  color: #737272;
+font-size: 25px;
+font-weight: 500;
 }
