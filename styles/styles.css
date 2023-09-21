@@ -99,6 +99,7 @@ font-weight: 500;
   margin: 150px;
   position: relative;
   z-index: 1;
+  border-radius: 5px;
 }
 .mindset::after{
   content: "";
@@ -124,4 +125,49 @@ font-weight: 500;
   background: #fff;
   padding: 20px 25px;
   margin:0 0 60px 70px;
+}
+/* footer styles */
+.footer {
+  background: #151414;
+  color: #fff;
+  display: flex;
+  gap: 250px;
+  padding: 130px 180px;
+}
+.footer-title{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-description{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.contact{
+  margin: 25px 0;
+}
+.footer-img > img{
+  margin: 30px 15px 0 0;
+}
+.footer-subtitle{
+font-size: 25px;
+font-weight: 600;
+}
+.footer-right{
+  margin-right: 100px;
+}
+.footer-right > input{
+  background-color: #151414;
+  border-radius: 8px;
+border: 1px solid #FFF;
+padding: 10px 15px;
+width: 150%;
+margin: 30px 0 15px;
+}
+::placeholder{
+  color: #FFF;
+}
+.footer-right > .btn-white{
+  margin-left: auto;
 }
